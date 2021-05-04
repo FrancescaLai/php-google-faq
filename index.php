@@ -40,7 +40,7 @@
       <?php
           foreach ($faqs as $faq) {
           echo "<li> $faq[domanda] </li>";
-          echo "<li> $faq[risposta] </li>";
+          echo "<p> $faq[risposta] </p>";
         }
        ?>
    </ul>
