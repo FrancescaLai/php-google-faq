@@ -61,8 +61,8 @@ header{
 }
 
 .bottom-navbar ul{
-    padding-bottom: 15px;
     color: grey;
+    padding-bottom: 10px;
 }
 
 
@@ -71,10 +71,12 @@ header{
     margin: 0 20px;
     cursor: pointer;
     font-weight: 500;
+    padding-bottom: 8px;
 }
 
 .active{
-    color:#3368D6;
+    color:#3367d6;
+    border-bottom: 3px solid #3367d6;
 }
 
 main{
@@ -82,14 +84,14 @@ main{
 }
 
 .container{
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
 }
 
 
 .list-php li{
   list-style: none;
-  font-size: 30px;
+  font-size: 25px;
   color: #3c4043;
   line-height: 40px;
   margin-bottom: 15px;
