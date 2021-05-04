@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    border-bottom: 1px solid lightslategrey;
+} 
+
+.top-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.nav-left img{
+    max-width: 100px;
+    margin-left: 10px;
+}
+
+.nav-left p{
+    font-size: 20px;
+    color: grey;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-right .fa-ellipsis-v{
+    padding: 10px;
+}
+
+
+.nav-right .fa-ellipsis-v:hover{
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-right .account{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #EF6C00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0px 20px;
+}
+
+.bottom-navbar ul{
+    padding-bottom: 15px;
+    color: grey;
+}
+
+
+.bottom-navbar li{
+    display: inline;
+    margin: 0 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.active{
+    color:#3368D6;
+}
+
+main{
+  margin-top: 50px;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.list-php li{
+  list-style: none;
+  font-size: 30px;
+  color: #3c4043;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+.list-php p{
+    font-size: 14px;
+    color: rgba(0,0,0,0.87);
+    margin-bottom: 15px;
+    line-height: 24px;
+}
