@@ -70,14 +70,14 @@
 
   <main>
     <div class="container">
-    <ul class="list-php"> 
+    <div class="list-php"> 
       <?php
           foreach ($faqs as $faq) {
-          echo "<li> $faq[domanda] </li>";
+          echo "<h3> $faq[domanda] <h3>";
           echo "<p> $faq[risposta] </p>";
         }
        ?>
-   </ul>
+   </div>
     </div>
   </main>
     

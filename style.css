@@ -89,7 +89,7 @@ main{
 }
 
 
-.list-php li{
+.list-php h3{
   list-style: none;
   font-size: 25px;
   color: #3c4043;
@@ -99,6 +99,7 @@ main{
 
 .list-php p{
     font-size: 14px;
+    font-weight: 400;
     color: rgba(0,0,0,0.87);
     margin-bottom: 15px;
     line-height: 24px;
